@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="#">
+	<table bgcolor="bfbfbf" width=68%>
+        <tr><th><u>STUDENT REGISTRATION FORM</th></u></tr>
+        <tr>
+            <tr><td>FIRST NAME</td><td><input type="text" size=30 max=30 autofocus required>(max 30 characters a-z and A-Z)<td></tr>
+
+            <tr><td>LAST NAME</td><td><input type="text" size=30 max=30 required>(max 30 characters a-z and A-Z)</td></tr>
+
+            <tr><td>DATE OF BIRTH</td><td> <!-- drop down list  for date-->
+                <!-- <label for="day">Days</label>
+                    <select name="day" id="day">
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                    </select>
+
+                <label for="month">Month</label>
+                    <select name="month" id="month">
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                    </select>
+
+                <label for="year">Year</label>
+                    <select name="year" id="year">
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                    </select> -->
+                <label for="datemaxmin"></label>
+                    <input type="date" id="datemaxmin" name="datemaxmin" min="1979-01-01" max="2021-01-01" required>
+            <td></tr>
+
+            <tr><td>MOBILE NUMBER</td><td><input type="number" size=10 max="9999999999" min="9000000000" required>(10 digit number)</td></tr>
+
+            <tr><td>GENDER</td><td>Male<input type="radio" name="1" required>Female<input type="radio"name="1" required></td></tr>
+
+            <tr><td>ADDRESS</td><td><input type="text" size=30 required>(max 30 characters a-z and A-Z)<td></tr>
+
+            <tr><td>STATE</td><td><input type="text" size=30 required>(max 30 characters a-z and A-Z)<td></tr>
+
+            <tr><td>COUNTRY</td><td><input type="text" size=30 required <td></tr>
+
+            <tr><td>HOBBIES</td><td>
+                Drawing<input type="checkbox">
+                Dancing<input type="checkbox">
+                Singing<input type="checkbox">
+                Sketching<input type="checkbox"><br>
+                others<input type="checkbox"><input type="text" placeholder="specify if others..."></td></tr>
+            <table border=1px width=68% bgcolor="bfbfbf">
+                <tr>
+                    <th>QUALIFICATION</th>
+                    <th>S.N</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of passing</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <table width=68% bgcolor="bfbfbf">
+                <tr>
+                    <td>COURSES</td>
+                    <td>
+                        B.COM<input type="radio" name="2">
+                        BSC<input type="radio"name="2" >
+                        B.A<input type="radio"name="2" >
+                    </td>
+                </tr><tr><td></td><td>
+                <input type="submit" value="submit">   
+                <input type="reset" value="Reset">
+                </td>
+            </table>
+            </td></tr>	
+		</table>
+		</form>
+</body>
+</html>
